@@ -1,0 +1,86 @@
+
+body{
+/*    font-family: 'ZCOOL XiaoWei', serif;*/
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;
+}
+.overlay{
+    left: 0;
+    top: 0;
+/*    bottom: 0;*/
+    background-color: rgba(214, 46, 51 , 0.6);  
+}
+.header{
+    top:40%;
+    left:25%;
+}
+.header h1{
+    font-size: 550%;
+    font-weight: 300;
+}
+.header h5{
+    font-size: 200%;
+    font-weight: 300;
+}
+span{
+    font-family: 'Courgette', cursive;
+    font-size: 97%;
+    font-weight: 100;
+}
+.sideMenu-icon {
+    top:5%;
+    left: 5%;
+    cursor: pointer;
+}
+.sideMenu{
+    top:0;
+    left: 0;
+    width: 20%;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+.sideMenu i{
+     cursor: pointer;
+}
+.sideMenu li{
+    font-size: 140%;
+    cursor: pointer;
+}
+.singers h3{
+    background-color: brown;
+    cursor: pointer;
+}
+.singers p{
+    background-color:rgba(214, 46, 51 , 0.6);
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 500;
+    display: none;
+}
+
+#s1{
+    display: block;
+}
+.overlay2{
+    top:0;
+    left: 0;
+    background-color: rgba(214, 46, 51 , 0.6);    
+}
+.counter .container{
+    top: 35%;
+    left: 8%;  
+}
+section li button.btn-outline-dark:hover{
+    background-color: red !important;
+}
+.social{
+    opacity: 0.8;
+}
+@media (max-width:1080px){
+    .counter .container{
+        left: 0;
+        top:10%;
+    } 
+    .counter .col-md-3{
+        padding: 2% !important;
+    }
+}
